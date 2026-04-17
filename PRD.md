@@ -1,4 +1,4 @@
-# 팀 캘린더 서비스 PRD
+# team_calender PRD
 
 ## 1. 배경 및 목적
 [작성 예정]
