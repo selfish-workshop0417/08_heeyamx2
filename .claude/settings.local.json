@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\([k for k in d.get\\('cachedGrowthBookFeatures',{}\\).keys\\(\\) if 'plugin' in k.lower\\(\\) or 'market' in k.lower\\(\\)]\\)\")",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(claude /plugin marketplace add selfish-workshop/workshop-toolkit)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
